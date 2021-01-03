@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40B200AC259C56A50057BFE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B200AB259C56A50057BFE3 /* AppDelegate.m */; };
+		40B200AF259C56A50057BFE3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B200AE259C56A50057BFE3 /* SceneDelegate.m */; };
+		40B200B2259C56A50057BFE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B200B1259C56A50057BFE3 /* ViewController.m */; };
+		40B200B5259C56A50057BFE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B200B3259C56A50057BFE3 /* Main.storyboard */; };
+		40B200B7259C56AC0057BFE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B200B6259C56AC0057BFE3 /* Assets.xcassets */; };
+		40B200BA259C56AC0057BFE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B200B8259C56AC0057BFE3 /* LaunchScreen.storyboard */; };
+		40B200BD259C56AC0057BFE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B200BC259C56AC0057BFE3 /* main.m */; };
+		40B200C7259C56AD0057BFE3 /* OC_UI_Basic_12_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B200C6259C56AD0057BFE3 /* OC_UI_Basic_12_______Tests.m */; };
+		40B200D2259C56AD0057BFE3 /* OC_UI_Basic_12_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B200D1259C56AD0057BFE3 /* OC_UI_Basic_12_______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40B200C3259C56AD0057BFE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B2009F259C56A40057BFE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40B200A6259C56A50057BFE3;
+			remoteInfo = "OC_UI_Basic_12_动态创建按钮";
+		};
+		40B200CE259C56AD0057BFE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B2009F259C56A40057BFE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40B200A6259C56A50057BFE3;
+			remoteInfo = "OC_UI_Basic_12_动态创建按钮";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40B200A7259C56A50057BFE3 /* OC_UI_Basic_03_动态创建按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC_UI_Basic_03_动态创建按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B200AA259C56A50057BFE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40B200AB259C56A50057BFE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40B200AD259C56A50057BFE3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		40B200AE259C56A50057BFE3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		40B200B0259C56A50057BFE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40B200B1259C56A50057BFE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40B200B4259C56A50057BFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40B200B6259C56AC0057BFE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40B200B9259C56AC0057BFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40B200BB259C56AC0057BFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B200BC259C56AC0057BFE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40B200C2259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC_UI_Basic_12_动态创建按钮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B200C6259C56AD0057BFE3 /* OC_UI_Basic_12_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OC_UI_Basic_12_______Tests.m"; sourceTree = "<group>"; };
+		40B200C8259C56AD0057BFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B200CD259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC_UI_Basic_12_动态创建按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B200D1259C56AD0057BFE3 /* OC_UI_Basic_12_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OC_UI_Basic_12_______UITests.m"; sourceTree = "<group>"; };
+		40B200D3259C56AD0057BFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40B200A4259C56A50057BFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B200BF259C56AD0057BFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B200CA259C56AD0057BFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40B2009E259C56A40057BFE3 = {
+			isa = PBXGroup;
+			children = (
+				40B200A9259C56A50057BFE3 /* OC_UI_Basic_12_动态创建按钮 */,
+				40B200C5259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮Tests */,
+				40B200D0259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮UITests */,
+				40B200A8259C56A50057BFE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40B200A8259C56A50057BFE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B200A7259C56A50057BFE3 /* OC_UI_Basic_03_动态创建按钮.app */,
+				40B200C2259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮Tests.xctest */,
+				40B200CD259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40B200A9259C56A50057BFE3 /* OC_UI_Basic_12_动态创建按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				40B200AA259C56A50057BFE3 /* AppDelegate.h */,
+				40B200AB259C56A50057BFE3 /* AppDelegate.m */,
+				40B200AD259C56A50057BFE3 /* SceneDelegate.h */,
+				40B200AE259C56A50057BFE3 /* SceneDelegate.m */,
+				40B200B0259C56A50057BFE3 /* ViewController.h */,
+				40B200B1259C56A50057BFE3 /* ViewController.m */,
+				40B200B3259C56A50057BFE3 /* Main.storyboard */,
+				40B200B6259C56AC0057BFE3 /* Assets.xcassets */,
+				40B200B8259C56AC0057BFE3 /* LaunchScreen.storyboard */,
+				40B200BB259C56AC0057BFE3 /* Info.plist */,
+				40B200BC259C56AC0057BFE3 /* main.m */,
+			);
+			path = "OC_UI_Basic_12_动态创建按钮";
+			sourceTree = "<group>";
+		};
+		40B200C5259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮Tests */ = {
+			isa = PBXGroup;
+			children = (
+				40B200C6259C56AD0057BFE3 /* OC_UI_Basic_12_______Tests.m */,
+				40B200C8259C56AD0057BFE3 /* Info.plist */,
+			);
+			path = "OC_UI_Basic_12_动态创建按钮Tests";
+			sourceTree = "<group>";
+		};
+		40B200D0259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮UITests */ = {
+			isa = PBXGroup;
+			children = (
+				40B200D1259C56AD0057BFE3 /* OC_UI_Basic_12_______UITests.m */,
+				40B200D3259C56AD0057BFE3 /* Info.plist */,
+			);
+			path = "OC_UI_Basic_12_动态创建按钮UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40B200A6259C56A50057BFE3 /* OC_UI_Basic_12_动态创建按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B200D6259C56AD0057BFE3 /* Build configuration list for PBXNativeTarget "OC_UI_Basic_12_动态创建按钮" */;
+			buildPhases = (
+				40B200A3259C56A50057BFE3 /* Sources */,
+				40B200A4259C56A50057BFE3 /* Frameworks */,
+				40B200A5259C56A50057BFE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC_UI_Basic_12_动态创建按钮";
+			productName = "OC_UI_Basic_12_动态创建按钮";
+			productReference = 40B200A7259C56A50057BFE3 /* OC_UI_Basic_03_动态创建按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40B200C1259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B200D9259C56AD0057BFE3 /* Build configuration list for PBXNativeTarget "OC_UI_Basic_12_动态创建按钮Tests" */;
+			buildPhases = (
+				40B200BE259C56AD0057BFE3 /* Sources */,
+				40B200BF259C56AD0057BFE3 /* Frameworks */,
+				40B200C0259C56AD0057BFE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40B200C4259C56AD0057BFE3 /* PBXTargetDependency */,
+			);
+			name = "OC_UI_Basic_12_动态创建按钮Tests";
+			productName = "OC_UI_Basic_12_动态创建按钮Tests";
+			productReference = 40B200C2259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40B200CC259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B200DC259C56AD0057BFE3 /* Build configuration list for PBXNativeTarget "OC_UI_Basic_12_动态创建按钮UITests" */;
+			buildPhases = (
+				40B200C9259C56AD0057BFE3 /* Sources */,
+				40B200CA259C56AD0057BFE3 /* Frameworks */,
+				40B200CB259C56AD0057BFE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40B200CF259C56AD0057BFE3 /* PBXTargetDependency */,
+			);
+			name = "OC_UI_Basic_12_动态创建按钮UITests";
+			productName = "OC_UI_Basic_12_动态创建按钮UITests";
+			productReference = 40B200CD259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40B2009F259C56A40057BFE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SimonLiu;
+				TargetAttributes = {
+					40B200A6259C56A50057BFE3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					40B200C1259C56AD0057BFE3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 40B200A6259C56A50057BFE3;
+					};
+					40B200CC259C56AD0057BFE3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 40B200A6259C56A50057BFE3;
+					};
+				};
+			};
+			buildConfigurationList = 40B200A2259C56A40057BFE3 /* Build configuration list for PBXProject "OC_UI_Basic_12_动态创建按钮" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40B2009E259C56A40057BFE3;
+			productRefGroup = 40B200A8259C56A50057BFE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40B200A6259C56A50057BFE3 /* OC_UI_Basic_12_动态创建按钮 */,
+				40B200C1259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮Tests */,
+				40B200CC259C56AD0057BFE3 /* OC_UI_Basic_12_动态创建按钮UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40B200A5259C56A50057BFE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B200BA259C56AC0057BFE3 /* LaunchScreen.storyboard in Resources */,
+				40B200B7259C56AC0057BFE3 /* Assets.xcassets in Resources */,
+				40B200B5259C56A50057BFE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B200C0259C56AD0057BFE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B200CB259C56AD0057BFE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40B200A3259C56A50057BFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B200B2259C56A50057BFE3 /* ViewController.m in Sources */,
+				40B200AC259C56A50057BFE3 /* AppDelegate.m in Sources */,
+				40B200BD259C56AC0057BFE3 /* main.m in Sources */,
+				40B200AF259C56A50057BFE3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B200BE259C56AD0057BFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B200C7259C56AD0057BFE3 /* OC_UI_Basic_12_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B200C9259C56AD0057BFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B200D2259C56AD0057BFE3 /* OC_UI_Basic_12_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40B200C4259C56AD0057BFE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40B200A6259C56A50057BFE3 /* OC_UI_Basic_12_动态创建按钮 */;
+			targetProxy = 40B200C3259C56AD0057BFE3 /* PBXContainerItemProxy */;
+		};
+		40B200CF259C56AD0057BFE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40B200A6259C56A50057BFE3 /* OC_UI_Basic_12_动态创建按钮 */;
+			targetProxy = 40B200CE259C56AD0057BFE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40B200B3259C56A50057BFE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B200B4259C56A50057BFE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40B200B8259C56AC0057BFE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B200B9259C56AC0057BFE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40B200D4259C56AD0057BFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40B200D5259C56AD0057BFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40B200D7259C56AD0057BFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZG439T737;
+				INFOPLIST_FILE = "OC_UI_Basic_12_动态创建按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonliu.OC-UI-Basic-03";
+				PRODUCT_NAME = "OC_UI_Basic_03_动态创建按钮";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40B200D8259C56AD0057BFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZG439T737;
+				INFOPLIST_FILE = "OC_UI_Basic_12_动态创建按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonliu.OC-UI-Basic-03";
+				PRODUCT_NAME = "OC_UI_Basic_03_动态创建按钮";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40B200DA259C56AD0057BFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZG439T737;
+				INFOPLIST_FILE = "OC_UI_Basic_12_动态创建按钮Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonliu.OC-UI-Basic-12-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC_UI_Basic_12_动态创建按钮.app/OC_UI_Basic_12_动态创建按钮";
+			};
+			name = Debug;
+		};
+		40B200DB259C56AD0057BFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZG439T737;
+				INFOPLIST_FILE = "OC_UI_Basic_12_动态创建按钮Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonliu.OC-UI-Basic-12-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC_UI_Basic_12_动态创建按钮.app/OC_UI_Basic_12_动态创建按钮";
+			};
+			name = Release;
+		};
+		40B200DD259C56AD0057BFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZG439T737;
+				INFOPLIST_FILE = "OC_UI_Basic_12_动态创建按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonliu.OC-UI-Basic-12-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OC_UI_Basic_12_动态创建按钮";
+			};
+			name = Debug;
+		};
+		40B200DE259C56AD0057BFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZG439T737;
+				INFOPLIST_FILE = "OC_UI_Basic_12_动态创建按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonliu.OC-UI-Basic-12-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OC_UI_Basic_12_动态创建按钮";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40B200A2259C56A40057BFE3 /* Build configuration list for PBXProject "OC_UI_Basic_12_动态创建按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B200D4259C56AD0057BFE3 /* Debug */,
+				40B200D5259C56AD0057BFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B200D6259C56AD0057BFE3 /* Build configuration list for PBXNativeTarget "OC_UI_Basic_12_动态创建按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B200D7259C56AD0057BFE3 /* Debug */,
+				40B200D8259C56AD0057BFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B200D9259C56AD0057BFE3 /* Build configuration list for PBXNativeTarget "OC_UI_Basic_12_动态创建按钮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B200DA259C56AD0057BFE3 /* Debug */,
+				40B200DB259C56AD0057BFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B200DC259C56AD0057BFE3 /* Build configuration list for PBXNativeTarget "OC_UI_Basic_12_动态创建按钮UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B200DD259C56AD0057BFE3 /* Debug */,
+				40B200DE259C56AD0057BFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40B2009F259C56A40057BFE3 /* Project object */;
+}
