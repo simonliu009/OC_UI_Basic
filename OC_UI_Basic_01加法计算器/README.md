@@ -1,2 +1,3 @@
-1.  加法计算器
-![界面截图](./snapshot/UI_01.png)
+1.  加法计算器<br><br>
+
+<img src="./snapshot/UI_01.png" height="500">
