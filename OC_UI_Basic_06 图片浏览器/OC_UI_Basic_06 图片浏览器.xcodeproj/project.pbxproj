@@ -16,6 +16,7 @@
 		405E492D25A21BB10003C261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E492C25A21BB10003C261 /* main.m */; };
 		405E493725A21BB10003C261 /* OC_UI_Basic_06______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E493625A21BB10003C261 /* OC_UI_Basic_06______Tests.m */; };
 		405E494225A21BB10003C261 /* OC_UI_Basic_06______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E494125A21BB10003C261 /* OC_UI_Basic_06______UITests.m */; };
+		405E495025A2D5280003C261 /* pic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 405E494F25A2D5280003C261 /* pic.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		405E493D25A21BB10003C261 /* OC_UI_Basic_06 图片浏览器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC_UI_Basic_06 图片浏览器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		405E494125A21BB10003C261 /* OC_UI_Basic_06______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OC_UI_Basic_06______UITests.m"; sourceTree = "<group>"; };
 		405E494325A21BB10003C261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405E494F25A2D5280003C261 /* pic.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = pic.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				405E492825A21BB10003C261 /* LaunchScreen.storyboard */,
 				405E492B25A21BB10003C261 /* Info.plist */,
 				405E492C25A21BB10003C261 /* main.m */,
+				405E494F25A2D5280003C261 /* pic.plist */,
 			);
 			path = "OC_UI_Basic_06 图片浏览器";
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				405E492A25A21BB10003C261 /* LaunchScreen.storyboard in Resources */,
 				405E492725A21BB10003C261 /* Assets.xcassets in Resources */,
 				405E492525A21BAE0003C261 /* Main.storyboard in Resources */,
+				405E495025A2D5280003C261 /* pic.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
